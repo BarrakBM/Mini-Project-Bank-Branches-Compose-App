@@ -11,7 +11,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.material3.Button
-import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -77,11 +76,12 @@ fun BranchDetailsScreen(
                 verticalAlignment = Alignment.CenterVertically,
                 horizontalArrangement = Arrangement.Center
             ) {
+                // google map image
                 Image(
                     painter = painterResource(id = R.drawable.google_maps_logo),
                     contentDescription = stringResource(R.string.google_maps),
                     modifier = modifier
-                        .size(24.dp)
+                        .size(40.dp)
                         .padding(end = 8.dp)
                 )
                 Text(stringResource(R.string.view_on_google_maps))

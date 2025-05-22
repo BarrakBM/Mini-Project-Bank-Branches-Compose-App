@@ -28,7 +28,6 @@ class BranchRepository {
                 phone = "+965 1801801",
                 hours = "Sun-Thu: 8:30AM-2:30PM",
                 location = "https://maps.google.com/?q=NBK+Downtown+Kuwait+City",
-                imageUri = R.drawable.nbk_default
             ),
             Branch(
                 id = 3,
@@ -48,7 +47,6 @@ class BranchRepository {
                 phone = "+965 1801801",
                 hours = "Daily: 10:00AM-10:00PM",
                 location = "https://maps.google.com/?q=NBK+Avenues+Mall+Kuwait",
-                imageUri = R.drawable.nbk_default
             ),
             Branch(
                 id = 5,
@@ -58,7 +56,6 @@ class BranchRepository {
                 phone = "+965 1801801",
                 hours = "Sun-Thu: 8:30AM-2:30PM",
                 location = "https://maps.google.com/?q=Al-Hamra+Tower+Kuwait",
-                imageUri = R.drawable.nbk_default
             ),
             Branch(
                 id = 6,
@@ -68,7 +65,6 @@ class BranchRepository {
                 phone = "ATM Only",
                 hours = "24/7",
                 location = "https://maps.google.com/?q=City+Center+Mall+Salmiya+Kuwait",
-                imageUri = R.drawable.nbk_default
             )
         )
     }

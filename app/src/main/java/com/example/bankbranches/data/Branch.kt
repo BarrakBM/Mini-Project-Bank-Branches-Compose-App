@@ -18,5 +18,5 @@ data class Branch(
     var phone: String,
     var hours: String,
     var location: String,
-    var imageUri: Int
+    var imageUri: Int? = null
 )
