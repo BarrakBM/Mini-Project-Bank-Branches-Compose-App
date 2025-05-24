@@ -69,6 +69,7 @@ class BranchRepository {
         )
     }
 
+
     fun getBranchById(id: Int): Branch? {
         return getBranches().find { branch -> branch.id == id }
     }

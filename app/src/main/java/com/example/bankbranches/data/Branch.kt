@@ -18,5 +18,6 @@ data class Branch(
     var phone: String,
     var hours: String,
     var location: String,
-    var imageUri: Int? = null
+    var imageUri: Int? = null,
+    var  isFavorite: Boolean = false
 )
